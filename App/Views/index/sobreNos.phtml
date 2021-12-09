@@ -1,0 +1,11 @@
+<h1> Sobre Nos</h1>
+<?php
+
+    echo "controller/view Sobre nos" . "<br>";
+
+    foreach($this->view->dados as $info){
+        echo $info['titulo'].' - '.$info['descricao']. '<br>';
+    }
+
+
+?>

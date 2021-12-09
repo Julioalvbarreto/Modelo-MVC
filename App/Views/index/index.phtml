@@ -1,0 +1,13 @@
+<h1> INDEX</h1>
+<?php
+
+    echo "controller/view index" . '<br>';
+
+    
+    foreach($this->view->dados as $produto){
+       echo $produto['id'].' - '.$produto['descricao'].' - '.$produto['preco'] . '<br>';
+    }
+
+
+
+?>
